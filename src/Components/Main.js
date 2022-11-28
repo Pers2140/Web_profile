@@ -11,6 +11,12 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Stack from "react-bootstrap/Stack";
 
+// projects
+
+import Project1 from "./Projects/Project1";
+import Project2 from "./Projects/Project2";
+import Project3 from "./Projects/Project3";
+
 export default function Main() {
   return (
     <Container fluid className="w-75 p-5 ">
@@ -40,9 +46,9 @@ export default function Main() {
           
           <Stack gap={3}>
           <h1 className="text-center">Projects</h1>
-            <div className="border text-center">First item</div>
-            <div className="border text-center">Second item</div>
-            <div className="border text-center">Third item</div>
+            <div className="border text-center"><Project1/></div>
+            <div className="border text-center"><Project2/></div>
+            <div className="border text-center"><Project3/></div>
           </Stack>
         </Col>
       </Row>
