@@ -4,9 +4,10 @@ import React from 'react';
 import Main from './Components/Main';
 
 const appStyle = {
-  backgroundColor: "#365373",
+  backgroundColor: "#abbdd8",
   minHeight:"1200px",
-  color:"white"
+  fontFamily:"Monospace",
+  
 };
 
 function App() {
