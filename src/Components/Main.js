@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 // images
 import logo from "../images/gif_logo.gif";
@@ -19,7 +20,8 @@ import Project3 from "./Projects/Project3";
 
 export default function Main() {
   return (
-    <Container fluid className="w-75 p-5 ">
+    <>
+    <Container fluid className="w-75 p-5  ">
       <NavBar />
       <Row>
         <Col md={12}>
@@ -31,14 +33,15 @@ export default function Main() {
         <Col lg className="d-flex justify-content-center">
           <img
             src={logo}
-            className=" d-flex justify-content-center img-fluid"
+            className=" w-100"
             alt=""
           />
         </Col>
         <Col lg className="d-flex justify-content-center">
           <img
             src={resume}
-            className="img-fluid justify-content-center"
+            className="img-fluid justify-content-center p-3"
+            style={{height:"200",width:"auto"}}
             alt=""
           />
         </Col>
@@ -73,5 +76,7 @@ export default function Main() {
         </Col>
       </Row>
     </Container>
+    <Footer/>
+    </>
   );
 }

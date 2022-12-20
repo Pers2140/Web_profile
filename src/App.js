@@ -5,7 +5,7 @@ import Main from './Components/Main';
 
 const appStyle = {
   backgroundColor: "#abbdd8",
-  minHeight:"1200px",
+  minHeight:"1400px",
   fontFamily:"Monospace",
   
 };
