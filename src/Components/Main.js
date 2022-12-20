@@ -1,4 +1,5 @@
 import React from "react";
+// import BGanimation from "./BGanimation"
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 
@@ -21,7 +22,8 @@ import Project3 from "./Projects/Project3";
 export default function Main() {
   return (
     <>
-    <Container fluid className="w-75 p-5  ">
+    {/* <BGanimation /> */}
+    <Container fluid className="w-75 p-5" style={{"position":"relative","z-index":"200"}}>
       <NavBar />
       <Row>
         <Col md={12}>
