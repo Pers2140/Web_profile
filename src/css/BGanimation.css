@@ -1,16 +1,8 @@
 
-.bouncy {
-
-    position: absolute;
-    z-index: 100;
-    background-color: black;
-    width: 20px;
-    height: 20px;
-    border-radius: 50px;
-    margin:1px;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: 2;
-    animation-direction: alternate-reverse; 
+canvas {
+    width: 500px;
+    height:500px;
+    /* background-color: #000000; */
+    /* position:fixed; */
+    /* z-index: 1100; */
 }
-
