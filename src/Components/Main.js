@@ -23,7 +23,7 @@ export default function Main() {
   return (
     <>
     <Container fluid className="w-75 p-5" style={{"position":"relative","z-index":"2000"}}>
-    <BGanimation />
+    {/* <BGanimation /> */}
       <NavBar />
       <Row>
         <Col md={12}>
